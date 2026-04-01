@@ -23,6 +23,66 @@ A versão presente neste repositório é interativa, ou seja, o usuário digita 
 ---
 
 ## Instruções de execução do código
+Ao executar o programa, o sistema solicitará ao usuário os dados da missão, como:
+
+temperatura interna;
+temperatura externa;
+integridade estrutural;
+nível de energia;
+pressão dos tanques;
+módulos críticos;
+capacidade total de energia;
+consumo estimado na decolagem;
+perdas energéticas.
+
+Após o preenchimento, o programa exibirá:
+
+os dados informados;
+o resultado final da missão;
+a análise energética;
+as falhas identificadas, se houver.
+
+Prints da execução:
+Exemplo de entrada de dados:
+
+===== SISTEMA DE PRÉ-DECOLAGEM =====
+Digite os dados da missão:
+
+Temperatura interna (°C): 22
+Temperatura externa (°C): -35
+Integridade estrutural (1 = íntegra / 0 = falha): 1
+Nível de energia (%): 85
+Pressão dos tanques (psi): 74
+Módulos críticos (ativos ou inativos): ativos
+Capacidade total de energia (kWh): 1200
+Consumo estimado na decolagem (kWh): 700
+Perdas energéticas (%): 8
+
+Exemplo de saída do programa:
+
+===== RELATÓRIO OPERACIONAL DE PRÉ-DECOLAGEM =====
+
+DADOS DA TELEMETRIA:
+Temperatura interna: 22 °C
+Temperatura externa: -35 °C
+Integridade estrutural: 1
+Nível de energia: 85 %
+Pressão dos tanques: 74 psi
+Módulos críticos: ativos
+
+RESULTADO DA MISSÃO:
+PRONTO PARA DECOLAR
+
+ANÁLISE ENERGÉTICA:
+Capacidade total: 1200.0 kWh
+Energia disponível: 1020.0 kWh
+Energia útil: 938.4 kWh
+Autonomia restante: 238.4 kWh
+
+Situação energética: ENERGIA SUFICIENTE
+
+FALHAS IDENTIFICADAS:
+Nenhuma falha detectada.
 
 ### Requisitos
 Para executar o projeto, é necessário ter:
