@@ -30,24 +30,13 @@ The system checks the following telemetry data:
 
 ## Project Files
 
-### `pre_decolagem_fixo.py`
-A simple version with fixed values already defined in the code.
-
-**Features:**
-- easy to understand for beginners;
-- useful for initial testing;
-- ideal for generating execution prints for the report.
-
-### `pre_decolagem_interativo.py`
+### `pre_decolagem.py`
 An interactive version in which the user enters the mission data through the terminal.
 
 **Features:**
 - allows testing different scenarios;
 - makes the simulation more dynamic;
 - receives telemetry and energy data in real time.
-
-### `pre_decolagem.ipynb`
-Notebook version of the project for demonstration and documentation purposes.
 
 ### `relatorio.pdf`
 Final PDF report containing the complete project explanation, pseudocode, calculations, and conclusions.
